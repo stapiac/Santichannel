@@ -14,7 +14,7 @@ h4 {
 
 .navbar-brand {
   font-weight: bold;
-  font-family: Montserrat;
+  color: red !important;
 }
 
 .nav-link {
@@ -37,8 +37,4 @@ h1 {
 body {
   background-color: white;
   padding-top: 60px;
-}
-
-span {
-  font-size: larger;
 }
