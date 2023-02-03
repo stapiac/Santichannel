@@ -3,6 +3,7 @@
 
 p {
   font-size: larger;
+  text-align: justify;
 }
 
 * {
@@ -17,11 +18,14 @@ h4 {
   background-color: orange;
 }
 
+.socials {
+  margin-left: 0.3em;
+}
+
 .socials a {
   color: black;
-  padding-right: 5px;
+  padding-right: 1em;
   text-align: justify;
-  margin-left: 10px;
 }
 
 .navbar-brand {
@@ -51,8 +55,28 @@ body {
   background-color: #f8f8ff;
 }
 
+.floatingsocials {
+  position: fixed;
+  width: 0px;
+  margin-top: 50px;
+  margin-left: -40px;
+  list-style-type: none;
+}
+
+.floatingsocials a {
+  color: black;
+  font-size: 4vw;
+  padding-top: 10px;
+}
+
 @media screen and (max-width: 768px) {
   body {
     padding-top: 100px;
+  }
+
+  .floatingsocials a {
+    color: black;
+    font-size: 6vw;
+    padding-top: 10px;
   }
 }
