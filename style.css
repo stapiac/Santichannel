@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&family=Oxygen&family=Sassy+Frass&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&family=Oxygen&family=Poppins:wght@700&family=Sassy+Frass&display=swap");
 
 * {
   font-family: Oxygen;
@@ -12,9 +13,14 @@ h4 {
   background-color: orange;
 }
 
+.socials a {
+  color: black;
+  margin-left: 10px;
+}
+
 .navbar-brand {
   font-weight: bold;
-  color: red !important;
+  font-family: "Poppins" !important;
 }
 
 .nav-link {
