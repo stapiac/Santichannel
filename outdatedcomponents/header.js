@@ -1,3 +1,6 @@
+//The social media icons were removed from the navbar (header) because we are using floating social media.
+//This file is the old header nav bar with the responsive social media icons on it
+
 class Header extends HTMLElement {
   constructor() {
     super();
