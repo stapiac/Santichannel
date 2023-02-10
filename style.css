@@ -72,6 +72,17 @@ body {
   padding-top: 10px;
 }
 
+/* FOOTER */
+
+.custom-footer {
+  background-color: black;
+}
+
+.custom-footer p {
+  font-size: large;
+  color: orange;
+}
+
 /*MEDIA QUERY*/
 
 @media screen and (max-width: 960px) {

@@ -5,11 +5,11 @@ class footerc extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `<div
-      class="container-fluid text-white text-center p-2"
-      style="background-color: black"
+      class="container-fluid text-white text-center p-2 custom-footer"
+      
     >
       <p class="text-center">
-        Todos los derechos reservados © - Stapia Productions 2023
+        2023 Todos los derechos reservados © - Stapia Productions
       </p>
     </div>`;
   }
