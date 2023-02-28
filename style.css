@@ -83,6 +83,23 @@ body {
   color: orange;
 }
 
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 50;
+  bottom: 0;
+  right: 50;
+  width: 80%;
+  height: 80%;
+}
+
+.containeriframe {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
 /*MEDIA QUERY*/
 
 @media screen and (max-width: 960px) {
