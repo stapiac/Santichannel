@@ -45,7 +45,7 @@ class Header extends HTMLElement {
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="#">Contacto</a>
+        <a class="nav-link" href="contacto.html">Contacto</a>
       </li>
 
 
