@@ -5,7 +5,7 @@ class footerc extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `<div
-      class="container-fluid text-white text-center p-2 custom-footer"
+      class="container-fluid text-white text-center p-2 custom-footer fixed-bottom"
       
     >
       <p class="text-center">

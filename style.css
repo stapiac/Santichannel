@@ -67,6 +67,16 @@ body {
   margin: 15px;
 }
 
+#fotosantiindex {
+  /* index */
+  max-width: 35%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+}
+
 .fotocontacto img {
   height: auto;
   max-width: 50%;
@@ -160,6 +170,16 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  #fotosantiindex {
+    /* biografia*/
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
   }
 
   .custom-footer p {
