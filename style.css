@@ -29,20 +29,31 @@ body {
 /* NAV VAR*/
 
 .nav-custom {
+  background: #a84632;
+}
+
+/* old header color
+
+.nav-custom {
   background: linear-gradient(to top, #ff9900 1%, #ffcc00 50%);
 }
 
+
+*/
+
 .navbar-brand {
   font-weight: bold;
+  color: white !important;
   font-family: "Poppins" !important;
 }
 
 .nav-link {
   font-weight: bold !important;
+  color: white !important;
 }
 
 .nav-link:hover {
-  color: red !important;
+  color: black !important;
 }
 
 /* PICTURES */
@@ -62,13 +73,13 @@ body {
   position: fixed;
   width: 0px;
   margin-top: 50px;
-  margin-left: -40px;
+  margin-left: -30px;
   list-style-type: none;
 }
 
 .floatingsocials a {
   color: black;
-  font-size: 4vw;
+  font-size: 2vw;
   padding-top: 10px;
 }
 
@@ -100,11 +111,24 @@ body {
   padding-top: 56.25%;
 }
 
+.iframeproyectos {
+  aspect-ratio: 16 / 9;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+
 /*MEDIA QUERY*/
 
 @media screen and (max-width: 960px) {
   body {
     padding-top: 100px;
+  }
+
+  .floatingsocials {
+    margin-left: -40px;
   }
 
   .floatingsocials a {
@@ -120,6 +144,15 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .custom-footer p {
+    font-size: x-small;
+    color: orange;
+  }
+
+  .iframeproyectos {
+    width: 100%;
   }
 }
 

@@ -27,10 +27,10 @@ class Header extends HTMLElement {
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav ms-auto">
       <li class="nav-item">
-        <a class="nav-link " href="#">Redes Sociales</a>
+        <a class="nav-link " href="reel.html">Reel</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="#">Proyectos</a>
+        <a class="nav-link " href="proyectos.html">Proyectos</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Entrevistas</a>
