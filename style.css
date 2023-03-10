@@ -70,7 +70,7 @@ body {
 
 #fotosantiindex {
   /* index */
-  max-width: 35%;
+  max-width: 50vh;
   height: auto;
   display: block;
   margin-left: auto;
@@ -80,7 +80,9 @@ body {
 
 .fotocontacto img {
   height: auto;
-  max-width: 50%;
+  max-width: 50vh;
+  display: block;
+  margin-left: auto;
 }
 
 /* Carrusel de fotos.html */
