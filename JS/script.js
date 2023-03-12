@@ -22,9 +22,6 @@ formulariodata.addEventListener("click", (e) => {
     {
       method: "POST",
       body: json,
-      headers: {
-        "Content-Type": "application/json",
-      },
     }
   )
     .then((response) => response.json())
