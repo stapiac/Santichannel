@@ -24,6 +24,15 @@ formulariodata.addEventListener("click", (e) => {
       body: json,
     }
   )
-    .then((response) => response.json())
-    .catch((error) => console.log(error));
+    .then((response) => response.text())
+    .then((response) => {
+      window.alert(response);
+      document.getElementById("Nombre").value = "";
+      document.getElementById("correoelectronico").value = "";
+      document.getElementById("telefono").value = "";
+      document.getElementById("mensaje").value = "";
+    })
+    .catch((error) =>
+      window.alert("El mensaje no se pudo enviar, por favor intentar mas tarde")
+    );
 });
