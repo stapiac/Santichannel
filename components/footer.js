@@ -9,7 +9,7 @@ class footerc extends HTMLElement {
       
     >
       <p class="text-center">
-        2023 Todos los derechos reservados © - Stapia Productions
+        2024 Todos los derechos reservados © - Stapia Productions
       </p>
     </div>`;
   }
